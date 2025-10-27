@@ -1,0 +1,7 @@
+StockMarketDataCruncher/
+│
+├── include/         # Header files (function declarations)
+├── src/             # Core logic (OpenMP computation)
+├── data/            # Sample data or CSV inputs
+├── tests/           # Simple correctness checks
+└── CMakeLists.txt   # Build configuration

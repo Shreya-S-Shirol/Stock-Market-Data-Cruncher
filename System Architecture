@@ -1,0 +1,28 @@
++----------------------------+
+|  Input Stock Data (CSV)    |
++-------------+--------------+
+              |
+              v
++-------------+--------------+
+|  Data Parsing (Parallel)   |
++-------------+--------------+
+              |
+              v
++-------------+--------------+
+|  Indicator Calculation     |
+|  - SMA (Parallelized)      |
+|  - RSI (Parallelized)      |
+|  - MACD (Parallelized)     |
++-------------+--------------+
+              |
+              v
++-------------+--------------+
+|  Alert Generation Module   |
+|  - SMA Crossovers          |
+|  - MACD Signal Alerts      |
++-------------+--------------+
+              |
+              v
++-------------+--------------+
+|  Performance Benchmarking  |
++----------------------------+

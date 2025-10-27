@@ -1,0 +1,19 @@
+StockMarketDataCruncher/
+│
+├── CMakeLists.txt
+├── README.md
+│
+├── include/
+│   ├── indicators.hpp
+│   └── utils.hpp
+│
+├── src/
+│   ├── main.cpp
+│   ├── indicators.cpp
+│   └── utils.cpp
+│
+├── data/
+│   └── sample_data.csv        # (optional small sample)
+│
+└── tests/
+    └── test_indicators.cpp
